@@ -4,10 +4,32 @@
     <h1>Key-ax Angular Project Test</h1>
   </span>
 
-  <input
-  #keyxElement
-  key-Ax
-  [combokeys]="['Control', 'b']"
-  type="text"
-  [placeholder]="'This is a demo'">
+  <div class="input-group mb-3">
+    <input  type="text" class="form-control" placeholder="User name" name="UserName" value="fernandoToledo"
+    #keyxElement
+    key-Ax
+    [combokeys]="['Control', 'x']">
+  </div>
+
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="User middle name" name="MiddleName" value="Fernando"
+    #keyxElement
+    key-Ax
+    [combokeys]="['Control', 'b']">
+  </div>
+
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="User last name" name="LastName" value="Toledo"
+    #keyxElement
+    key-Ax
+    [combokeys]="['Control', 'q']">
+  </div>
+
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="User Address" name="Address" value="476 Tufton"
+    #keyxElement
+    key-Ax
+    [combokeys]="['Alt', 'h']">
+  </div>
+
 </div>
