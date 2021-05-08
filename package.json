@@ -25,7 +25,7 @@
     "core-js": "^2.5.4",
     "cryptiles": "^4.1.2",
     "hoek": "^4.2.1",
-    "ng-packagr": "^4.4.5",
+    "ng-packagr": "^10.1.1",
     "rxjs": "^6.0.0",
     "tsickle": "^0.34.0",
     "tslib": "^1.9.0",
